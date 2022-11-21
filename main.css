@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+
+body {
+  background-color: rgb(33, 31, 31);
+}
+
+.container .row {
+  justify-content: center;
+}
+.container h1 {
+  text-align: center;
+}
+
+.row .total {
+  background-color: purple;
+  color: white;
+}
+.row .btn {
+  background-color: purple;
+  color: white;
+}
+
+.inputs {
+  background-color: black;
+  border-radius: 10px;
+  color: white !important;
+  height: 50px;
+  border-style: inset;
+  margin: 0 4px;
+  transition: all 1s;
+}
+
+.inputs:focus {
+  color: black !important;
+}/*# sourceMappingURL=main.css.map */

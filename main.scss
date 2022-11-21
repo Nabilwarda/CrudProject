@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+body {
+    background-color: rgb(33, 31, 31);
+}
+
+$main:purple;
+$second:orange;
+$text-color:white;
+$backgcolor:black;
+.container {
+    .row {
+        justify-content: center;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+.row {
+    .total {
+        background-color: $main;
+        color: $text-color;
+    }
+    .btn {
+        background-color: $main;
+        color: $text-color;
+    }
+}
+
+.inputs {
+    background-color: $backgcolor;
+    border-radius: 10px;
+    color: $text-color !important;
+    height: 50px;
+    border-style: inset;
+    margin: 0 4px;
+    transition: all 1s;
+}
+
+.inputs:focus {
+    color: $backgcolor !important;
+}
